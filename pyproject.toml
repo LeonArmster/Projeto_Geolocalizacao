@@ -1,0 +1,20 @@
+[project]
+name = "projeto-geopandas"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "LeonArmster",email = "leo.armster1994@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "geopandas[all] (>=1.1.1,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "folium (>=0.20.0,<0.21.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
